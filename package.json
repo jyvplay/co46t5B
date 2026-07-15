@@ -1,21 +1,21 @@
 {
-  "name": "veritas-co46t5B",
+  "name": "veritas-co46t5b",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node script.js && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "axios": "^1.18.1",
     "clsx": "2.1.1",
-    "comlink": "^4.4.2",
-    "esbuild": "^0.28.1",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "tailwind-merge": "3.4.0"
+    "tailwind-merge": "3.4.0",
+    "veritas-co46t5b": "^1.0.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.17",
@@ -27,8 +27,5 @@
     "typescript": "5.9.3",
     "vite": "7.3.2",
     "vite-plugin-singlefile": "2.3.0"
-  },
-  "allowScripts": {
-    "esbuild@0.28.1": true
   }
 }
